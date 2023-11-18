@@ -10,8 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  three_dart: 
-    path: ../three_dart_fork
+  three_dart:
+    git:
+      url: git@github.com:jcorreapa/three_dart_fork.git
+      ref: main 
   # flutter_webgpu:
   #   path: ../../flutter_webgpu
 
